@@ -1,0 +1,9 @@
+version: "3.9"
+services:
+  labforce_exchange:
+    build: 
+      context: .
+    image: home_finder
+    container_name: home_finder
+    restart: always
+    command: poetry run python main.py

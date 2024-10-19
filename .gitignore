@@ -1,0 +1,14 @@
+.venv
+.vscode
+*.env
+__pycache__
+*.pyc
+
+/results
+/logs
+
+test.py
+
+celerybeat-schedule.bak
+celerybeat-schedule.dat
+celerybeat-schedule.dir
