@@ -6,6 +6,8 @@ ENV PYTHONUNBUFFERED 1
 
 COPY pyproject.toml .
 
+RUN ping 8.8.8.8
+
 RUN python -V && \
     pip install poetry && \
     poetry config virtualenvs.in-project true &&\
