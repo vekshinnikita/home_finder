@@ -1,6 +1,7 @@
 
 
 import asyncio
+from avito import AvitoFinder
 from cian import CianFinder
 from telegram import TelegramSender
 
@@ -8,10 +9,14 @@ from telegram import TelegramSender
 async def main():
     telegram_sender = TelegramSender()
     cian_finder = CianFinder()
+    avito_finder = AvitoFinder()
     
 
     while True:
-        notifications = cian_finder.find()
+        notifications = []
+
+        notifications.extend(cian_finder.find())
+        notifications.extend(avito_finder.find())
 
         if notifications:
             message = '\n'.join(notifications)
