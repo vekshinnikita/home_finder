@@ -45,7 +45,7 @@ class BaseFinder(FinderABC):
                 break
             
         
-        if notifications:
+        if self.last_offer_update is None or notifications:
             self.last_offer_update = self.get_offer_datetime(offers[0]) 
 
         return notifications
