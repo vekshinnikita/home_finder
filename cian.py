@@ -327,8 +327,6 @@ class CianFinder(BaseFinder):
         }
     }
 
-    last_offer_update=None
-
     def get_offers(self):
         print(f'Request Cian')
         response = requests.post(
