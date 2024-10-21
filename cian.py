@@ -18,12 +18,6 @@ class CianFinder(BaseFinder):
                 "type": "term",
                 "value": 2
             },
-            "region": {
-                "type": "terms",
-                "value": [
-                    2
-                ]
-            },
             "price": {
                 "type": "range",
                 "value": {
@@ -33,6 +27,271 @@ class CianFinder(BaseFinder):
             "currency": {
                 "type": "term",
                 "value": 2
+            },
+            "geo": {
+                "type": "geo",
+                "value": [
+                    {
+                        "type": "underground",
+                        "id": 169
+                    },
+                    {
+                        "type": "underground",
+                        "id": 170
+                    },
+                    {
+                        "type": "underground",
+                        "id": 171
+                    },
+                    {
+                        "type": "underground",
+                        "id": 172
+                    },
+                    {
+                        "type": "underground",
+                        "id": 173
+                    },
+                    {
+                        "type": "underground",
+                        "id": 174
+                    },
+                    {
+                        "type": "underground",
+                        "id": 175
+                    },
+                    {
+                        "type": "underground",
+                        "id": 176
+                    },
+                    {
+                        "type": "underground",
+                        "id": 177
+                    },
+                    {
+                        "type": "underground",
+                        "id": 178
+                    },
+                    {
+                        "type": "underground",
+                        "id": 179
+                    },
+                    {
+                        "type": "underground",
+                        "id": 180
+                    },
+                    {
+                        "type": "underground",
+                        "id": 181
+                    },
+                    {
+                        "type": "underground",
+                        "id": 182
+                    },
+                    {
+                        "type": "underground",
+                        "id": 183
+                    },
+                    {
+                        "type": "underground",
+                        "id": 184
+                    },
+                    {
+                        "type": "underground",
+                        "id": 187
+                    },
+                    {
+                        "type": "underground",
+                        "id": 188
+                    },
+                    {
+                        "type": "underground",
+                        "id": 189
+                    },
+                    {
+                        "type": "underground",
+                        "id": 190
+                    },
+                    {
+                        "type": "underground",
+                        "id": 191
+                    },
+                    {
+                        "type": "underground",
+                        "id": 192
+                    },
+                    {
+                        "type": "underground",
+                        "id": 193
+                    },
+                    {
+                        "type": "underground",
+                        "id": 194
+                    },
+                    {
+                        "type": "underground",
+                        "id": 195
+                    },
+                    {
+                        "type": "underground",
+                        "id": 197
+                    },
+                    {
+                        "type": "underground",
+                        "id": 198
+                    },
+                    {
+                        "type": "underground",
+                        "id": 199
+                    },
+                    {
+                        "type": "underground",
+                        "id": 200
+                    },
+                    {
+                        "type": "underground",
+                        "id": 201
+                    },
+                    {
+                        "type": "underground",
+                        "id": 202
+                    },
+                    {
+                        "type": "underground",
+                        "id": 203
+                    },
+                    {
+                        "type": "underground",
+                        "id": 204
+                    },
+                    {
+                        "type": "underground",
+                        "id": 205
+                    },
+                    {
+                        "type": "underground",
+                        "id": 206
+                    },
+                    {
+                        "type": "underground",
+                        "id": 207
+                    },
+                    {
+                        "type": "underground",
+                        "id": 208
+                    },
+                    {
+                        "type": "underground",
+                        "id": 210
+                    },
+                    {
+                        "type": "underground",
+                        "id": 211
+                    },
+                    {
+                        "type": "underground",
+                        "id": 212
+                    },
+                    {
+                        "type": "underground",
+                        "id": 213
+                    },
+                    {
+                        "type": "underground",
+                        "id": 215
+                    },
+                    {
+                        "type": "underground",
+                        "id": 216
+                    },
+                    {
+                        "type": "underground",
+                        "id": 217
+                    },
+                    {
+                        "type": "underground",
+                        "id": 218
+                    },
+                    {
+                        "type": "underground",
+                        "id": 219
+                    },
+                    {
+                        "type": "underground",
+                        "id": 220
+                    },
+                    {
+                        "type": "underground",
+                        "id": 221
+                    },
+                    {
+                        "type": "underground",
+                        "id": 222
+                    },
+                    {
+                        "type": "underground",
+                        "id": 224
+                    },
+                    {
+                        "type": "underground",
+                        "id": 225
+                    },
+                    {
+                        "type": "underground",
+                        "id": 226
+                    },
+                    {
+                        "type": "underground",
+                        "id": 227
+                    },
+                    {
+                        "type": "underground",
+                        "id": 230
+                    },
+                    {
+                        "type": "underground",
+                        "id": 231
+                    },
+                    {
+                        "type": "underground",
+                        "id": 232
+                    },
+                    {
+                        "type": "underground",
+                        "id": 241
+                    },
+                    {
+                        "type": "underground",
+                        "id": 242
+                    },
+                    {
+                        "type": "underground",
+                        "id": 246
+                    },
+                    {
+                        "type": "underground",
+                        "id": 247
+                    },
+                    {
+                        "type": "underground",
+                        "id": 355
+                    },
+                    {
+                        "type": "underground",
+                        "id": 356
+                    },
+                    {
+                        "type": "underground",
+                        "id": 357
+                    },
+                    {
+                        "type": "underground",
+                        "id": 358
+                    },
+                    {
+                        "type": "underground",
+                        "id": 382
+                    }
+                ]
             },
             "foot_min": {
                 "type": "range",
@@ -44,25 +303,9 @@ class CianFinder(BaseFinder):
                 "type": "term",
                 "value": "2"
             },
-            "publish_period": {
-                "type": "term",
-                "value": 604800
-            },
-            "saved_search_id": {
-                "type": "term",
-                "value": 45952085
-            },
-            "with_neighbors": {
-                "type": "term",
-                "value": True
-            },
-            "outdated_repair": {
-                "type": "term",
-                "value": False
-            },
             "for_day": {
                 "type": "term",
-                "value": "!1"
+                "value": "0"
             },
             "repair": {
                 "type": "terms",
@@ -75,19 +318,6 @@ class CianFinder(BaseFinder):
                 "value": [
                     1,
                     2
-                ]
-            },
-            "bbox": {
-                "type": "term",
-                "value": [
-                    [
-                        30.759691,
-                        60.244837
-                    ],
-                    [
-                        29.42981,
-                        59.633783
-                    ]
                 ]
             },
             "sort": {
