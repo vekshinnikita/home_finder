@@ -14,6 +14,10 @@ class CianFinder(BaseFinder):
     filter = {
         "jsonQuery": {
             "_type": "flatrent",
+            "sort": {
+                "type": "term",
+                "value": "creation_date_desc"
+            },
             "engine_version": {
                 "type": "term",
                 "value": 2
@@ -310,7 +314,9 @@ class CianFinder(BaseFinder):
             "repair": {
                 "type": "terms",
                 "value": [
-                    3
+                    2,
+                    3,
+                    4
                 ]
             },
             "room": {
@@ -319,10 +325,6 @@ class CianFinder(BaseFinder):
                     1,
                     2
                 ]
-            },
-            "sort": {
-                "type": "term",
-                "value": "creation_date_desc"
             }
         }
     }
