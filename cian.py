@@ -300,7 +300,7 @@ class CianFinder(BaseFinder):
             "foot_min": {
                 "type": "range",
                 "value": {
-                    "lte": 20
+                    "lte": 30
                 }
             },
             "only_foot": {
