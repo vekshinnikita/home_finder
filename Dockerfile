@@ -9,7 +9,7 @@ COPY pyproject.toml .
 RUN python -V && \
     pip install poetry && \
     poetry config virtualenvs.in-project true &&\
-    poetry install --no-dev
+    poetry install 
 
 
 COPY . .
