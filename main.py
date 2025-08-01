@@ -16,7 +16,7 @@ async def main():
         notifications = []
 
         notifications.extend(cian_finder.find())
-        notifications.extend(avito_finder.find())
+        # notifications.extend(avito_finder.find())
 
         if notifications:
             message = '\n'.join(notifications)

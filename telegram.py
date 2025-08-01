@@ -4,7 +4,7 @@ from aiogram import Bot, Dispatcher, Router, types
 
 class TelegramSender():
     token = '8119601846:AAFeBAASe9atzTj8FzVbuLq4i-MjpRPlGN0'
-    chat_ids = [6019859597, 751706915]
+    chat_ids = [6019859597, 1092824553]
     # chat_ids = [6019859597]
 
     def __init__(self):

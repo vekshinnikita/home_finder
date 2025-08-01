@@ -1,16 +1,19 @@
 from calendar import month
-import datetime
+from datetime import datetime, timedelta
 
 
 def get_date_from_string(string):
   """Извлекает дату из строки типа '14 часов назад' и time: '10:00'."""
+  
+  if string == "вчера":
+    return datetime.now() - timedelta(days=1)
 
   words = string.split()
   
   amount = 1
   if len(words) == 3:
     amount = int(words[0]) if words[0].isdigit() else 1
-
+  
   unit = words[1]
 
 
