@@ -240,7 +240,7 @@ class CianFinder(BaseFinder):
             "type": "terms",
             "value": [
                 1,
-                2
+                9
             ]
             },
             "sort": {
@@ -248,7 +248,7 @@ class CianFinder(BaseFinder):
             "value": "creation_date_desc"
             }
         }
-    }
+        }
 
     def get_offers(self):
         print(f'Request Cian')

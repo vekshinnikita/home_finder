@@ -1,12 +1,12 @@
 from calendar import month
-from datetime import datetime, timedelta
+import datetime
 
 
 def get_date_from_string(string):
   """Извлекает дату из строки типа '14 часов назад' и time: '10:00'."""
   
   if string == "вчера":
-    return datetime.now() - timedelta(days=1)
+    return datetime.datetime.now() - datetime.timedelta(days=1)
 
   words = string.split()
   
@@ -31,3 +31,7 @@ def get_date_from_string(string):
     return now - datetime.timedelta(weeks=amount)
   else:
     return now - datetime.timedelta(days=365)
+  
+#   content[id]= dateLabelRich
+  
+# content.tokens[0]title
