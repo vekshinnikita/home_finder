@@ -8,7 +8,7 @@ from utils import get_date_from_string
 
 class CianFinder(BaseFinder):
 
-    url = 'https://api.cian.ru/search-offers/v2/search-offers-desktop/'
+    url = 'https://api.cian.ru/search-offers/v3/search-offers-desktop/'
     offer_url = 'https://spb.cian.ru/rent/flat/{id}/'
     filter = {
         "jsonQuery": {
@@ -249,6 +249,16 @@ class CianFinder(BaseFinder):
                     }
                 ]
             },
+            "foot_min": {
+                "type": "range",
+                "value": {
+                    "lte": 20
+                }
+            },
+            "only_foot": {
+                "type": "term",
+                "value": "2"
+            },
             "floor": {
                 "type": "range",
                 "value": {
@@ -261,7 +271,7 @@ class CianFinder(BaseFinder):
             },
             "saved_search_id": {
                 "type": "term",
-                "value": 51596133
+                "value": 51623902
             },
             "for_day": {
                 "type": "term",
@@ -280,16 +290,6 @@ class CianFinder(BaseFinder):
                     1,
                     9
                 ]
-            },
-            "foot_min": {
-                "type": "range",
-                "value": {
-                    "lte": 20
-                }
-            },
-            "only_foot": {
-                "type": "term",
-                "value": "2"
             }
         }
     }
