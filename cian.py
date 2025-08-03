@@ -265,13 +265,9 @@ class CianFinder(BaseFinder):
                     "gte": 2
                 }
             },
-            "publish_period": {
-                "type": "term",
-                "value": -2
-            },
             "saved_search_id": {
                 "type": "term",
-                "value": 51623902
+                "value": 51624143
             },
             "for_day": {
                 "type": "term",
