@@ -25,7 +25,7 @@ class CianFinder(BaseFinder):
                 "type": "range",
                 "value": {
                     "gte": 25000,
-                    "lte": 35000
+                    "lte": 40000
                 }
             },
             "currency": {
