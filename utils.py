@@ -29,7 +29,3 @@ def get_date_from_string(string):
         return now - datetime.timedelta(weeks=amount)
     else:
         return now - datetime.timedelta(days=365)
-
-#   content[id]= dateLabelRich
-
-# content.tokens[0]title
